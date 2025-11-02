@@ -10,4 +10,4 @@ BQ_TABLE = "ga4_data"
 
 GCP_PROJECT = "crystalloids-candidates"
 
-FUNCTION1_URL = "https://europe-west4-crystalloids-candidates.cloudfunctions.net/Andrea_Monforte_load_csv_to_bq"
+FUNCTION1_URL = "https://andrea-monforte-load-csv-to-bq-xqb44gplaa-ez.a.run.app/"

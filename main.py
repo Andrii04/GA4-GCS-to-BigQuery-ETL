@@ -3,6 +3,19 @@ from datetime import datetime
 from config import BUCKET_NAME, FILE_NAME, GCP_PROJECT, BQ_DATASET, BQ_TABLE
 
 
+def ensure_dataset_exists():
+    bq_client = bigquery.Client()
+    dataset_ref = bigquery.DatasetReference(GCP_PROJECT, BQ_DATASET)
+
+    try:
+        bq_client.get_dataset(dataset_ref)
+        print(f"dataset '{BQ_DATASET}' exists already.")
+    except Exception:
+        print(f"dataset '{BQ_DATASET}' not found, creating it now...")
+        bq_client.create_dataset(bigquery.Dataset(dataset_ref))
+        print(f"dataset created.")
+
+
 def manage_bucket_files():
     
     client = storage.Client()
@@ -22,14 +35,20 @@ def manage_bucket_files():
 
 
 def load_csv_to_bigquery():
+    ensure_dataset_exists()
+
     storage_client = storage.Client()
     bq_client = bigquery.Client()
     uri = f"gs://{BUCKET_NAME}/{FILE_NAME}"
 
     job_config = bigquery.LoadJobConfig(
-        source_format = bigquery.SourceFormat.CSV,
-        skip_leading_rows = 1,
-        autodetect = True
+    source_format=bigquery.SourceFormat.CSV,
+    skip_leading_rows=1,
+    allow_quoted_newlines=True,
+    max_bad_records=1000000,
+    field_delimiter=",",
+    quote_character='"',
+    autodetect=True,  
     )
 
     table_id = f"{GCP_PROJECT}.{BQ_DATASET}.{BQ_TABLE}"

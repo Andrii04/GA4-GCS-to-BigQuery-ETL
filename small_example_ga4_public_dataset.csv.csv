@@ -1,0 +1,492 @@
+ecommerce,platform,items,event_dimensions,traffic_source,user_first_touch_timestamp,privacy_info,user_id,app_info,user_pseudo_id,event_bundle_sequence_id,event_value_in_usd,device,event_server_timestamp_offset,event_previous_timestamp,event_date,event_name,geo,event_params,stream_id,user_ltv,event_timestamp
+"{
+  ""ecommerce"": {
+    ""unique_items"": ""1"",
+    ""transaction_id"": ""(not set)"",
+    ""shipping_value"": null,
+    ""shipping_value_in_usd"": null,
+    ""tax_value_in_usd"": null,
+    ""refund_value"": null,
+    ""total_item_quantity"": null,
+    ""refund_value_in_usd"": null,
+    ""tax_value"": null,
+    ""purchase_revenue"": null,
+    ""purchase_revenue_in_usd"": null
+  }
+}",WEB,"{
+  ""items"": [{
+    ""creative_slot"": ""(not set)"",
+    ""item_category2"": ""(not set)"",
+    ""item_list_index"": ""Slide 1"",
+    ""item_list_name"": ""(not set)"",
+    ""coupon"": ""(not set)"",
+    ""item_list_id"": ""(not set)"",
+    ""promotion_name"": ""Reach New Heights"",
+    ""item_refund"": null,
+    ""item_revenue"": null,
+    ""item_revenue_in_usd"": null,
+    ""price"": null,
+    ""quantity"": null,
+    ""item_category5"": ""(not set)"",
+    ""price_in_usd"": null,
+    ""item_category4"": ""(not set)"",
+    ""item_category3"": ""(not set)"",
+    ""item_category"": ""(not set)"",
+    ""creative_name"": ""Front Page Carousel"",
+    ""location_id"": ""(not set)"",
+    ""item_id"": ""(not set)"",
+    ""item_brand"": ""(not set)"",
+    ""promotion_id"": ""(not set)"",
+    ""affiliation"": ""(not set)"",
+    ""item_refund_in_usd"": null,
+    ""item_variant"": ""(not set)"",
+    ""item_name"": ""(not set)""
+  }]
+}",,"{
+  ""traffic_source"": {
+    ""source"": ""\u003cOther\u003e"",
+    ""name"": ""(organic)"",
+    ""medium"": ""organic""
+  }
+}",1610397293663488,"{
+  ""privacy_info"": {
+    ""uses_transient_token"": ""false"",
+    ""ads_storage"": null,
+    ""analytics_storage"": null
+  }
+}",,,59115085.464958489,6007369378,,"{
+  ""device"": {
+    ""web_info"": {
+      ""browser_version"": ""\u003cOther\u003e"",
+      ""browser"": ""Chrome""
+    },
+    ""time_zone_offset_seconds"": null,
+    ""language"": ""en-us"",
+    ""operating_system"": ""Web"",
+    ""mobile_os_hardware_model"": null,
+    ""mobile_marketing_name"": ""\u003cOther\u003e"",
+    ""is_limited_ad_tracking"": ""false"",
+    ""advertising_id"": null,
+    ""category"": ""mobile"",
+    ""operating_system_version"": ""10"",
+    ""mobile_model_name"": ""Pixel 3"",
+    ""vendor_id"": null,
+    ""mobile_brand_name"": ""Google""
+  }
+}",,,20210111,view_promotion,"{
+  ""geo"": {
+    ""sub_continent"": ""Australasia"",
+    ""city"": ""(not set)"",
+    ""region"": ""(not set)"",
+    ""metro"": ""(not set)"",
+    ""country"": ""New Zealand"",
+    ""continent"": ""Oceania""
+  }
+}","{
+  ""event_params"": [{
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""102"",
+      ""string_value"": null
+    },
+    ""key"": ""engagement_time_msec""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""1"",
+      ""string_value"": null
+    },
+    ""key"": ""debug_mode""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": null
+    },
+    ""key"": ""page_referrer""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""https://shop.googlemerchandisestore.com/""
+    },
+    ""key"": ""page_location""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""1""
+    },
+    ""key"": ""session_engaged""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""2517214945"",
+      ""string_value"": null
+    },
+    ""key"": ""ga_session_id""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""1"",
+      ""string_value"": null
+    },
+    ""key"": ""engaged_session_event""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""Home""
+    },
+    ""key"": ""page_title""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""1"",
+      ""string_value"": null
+    },
+    ""key"": ""ga_session_number""
+  }]
+}",2100450278,"{
+  ""user_ltv"": {
+    ""currency"": ""USD"",
+    ""revenue"": ""0.0""
+  }
+}",1610397641700153
+"{
+  ""ecommerce"": {
+    ""unique_items"": null,
+    ""transaction_id"": null,
+    ""shipping_value"": null,
+    ""shipping_value_in_usd"": null,
+    ""tax_value_in_usd"": null,
+    ""refund_value"": null,
+    ""total_item_quantity"": null,
+    ""refund_value_in_usd"": null,
+    ""tax_value"": null,
+    ""purchase_revenue"": null,
+    ""purchase_revenue_in_usd"": null
+  }
+}",WEB,"{
+  ""items"": []
+}",,"{
+  ""traffic_source"": {
+    ""source"": ""\u003cOther\u003e"",
+    ""name"": ""\u003cOther\u003e"",
+    ""medium"": ""\u003cOther\u003e""
+  }
+}",1604758097823886,"{
+  ""privacy_info"": {
+    ""uses_transient_token"": ""false"",
+    ""ads_storage"": null,
+    ""analytics_storage"": null
+  }
+}",,,78464708.148784623,-5058819393,,"{
+  ""device"": {
+    ""web_info"": {
+      ""browser_version"": ""87.0"",
+      ""browser"": ""Chrome""
+    },
+    ""time_zone_offset_seconds"": null,
+    ""language"": ""en-us"",
+    ""operating_system"": ""Android"",
+    ""mobile_os_hardware_model"": null,
+    ""mobile_marketing_name"": ""\u003cOther\u003e"",
+    ""is_limited_ad_tracking"": ""false"",
+    ""advertising_id"": null,
+    ""category"": ""mobile"",
+    ""operating_system_version"": ""\u003cOther\u003e"",
+    ""mobile_model_name"": ""Pixel 4 XL"",
+    ""vendor_id"": null,
+    ""mobile_brand_name"": ""Google""
+  }
+}",,,20201107,user_engagement,"{
+  ""geo"": {
+    ""sub_continent"": ""Northern America"",
+    ""city"": ""(not set)"",
+    ""region"": ""(not set)"",
+    ""metro"": ""(not set)"",
+    ""country"": ""United States"",
+    ""continent"": ""Americas""
+  }
+}","{
+  ""event_params"": [{
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""3942407484"",
+      ""string_value"": null
+    },
+    ""key"": ""ga_session_id""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""0""
+    },
+    ""key"": ""session_engaged""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": null
+    },
+    ""key"": ""page_referrer""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""\u003cOther\u003e""
+    },
+    ""key"": ""campaign""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""\u003cobfuscated\u003e""
+    },
+    ""key"": ""term""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""1"",
+      ""string_value"": null
+    },
+    ""key"": ""ga_session_number""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": null
+    },
+    ""key"": ""all_data""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""1"",
+      ""string_value"": null
+    },
+    ""key"": ""engaged_session_event""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""\u003cOther\u003e""
+    },
+    ""key"": ""medium""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""\u003cOther\u003e""
+    },
+    ""key"": ""source""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""Frequently Asked Questions""
+    },
+    ""key"": ""page_title""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""1"",
+      ""string_value"": null
+    },
+    ""key"": ""debug_mode""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""https://shop.googlemerchandisestore.com/store-policies/frequently-asked-questions/""
+    },
+    ""key"": ""page_location""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""9129"",
+      ""string_value"": null
+    },
+    ""key"": ""engagement_time_msec""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""gtm.js""
+    },
+    ""key"": ""clean_event""
+  }]
+}",2100450278,"{
+  ""user_ltv"": {
+    ""currency"": ""USD"",
+    ""revenue"": ""0.0""
+  }
+}",1604758106618509
+"{
+  ""ecommerce"": {
+    ""unique_items"": null,
+    ""transaction_id"": null,
+    ""shipping_value"": null,
+    ""shipping_value_in_usd"": null,
+    ""tax_value_in_usd"": null,
+    ""refund_value"": null,
+    ""total_item_quantity"": null,
+    ""refund_value_in_usd"": null,
+    ""tax_value"": null,
+    ""purchase_revenue"": null,
+    ""purchase_revenue_in_usd"": null
+  }
+}",WEB,"{
+  ""items"": []
+}",,"{
+  ""traffic_source"": {
+    ""source"": ""(data deleted)"",
+    ""name"": ""(data deleted)"",
+    ""medium"": ""(data deleted)""
+  }
+}",1605279344035244,"{
+  ""privacy_info"": {
+    ""uses_transient_token"": ""false"",
+    ""ads_storage"": null,
+    ""analytics_storage"": null
+  }
+}",,,1281034.1055760011,-663526754,,"{
+  ""device"": {
+    ""web_info"": {
+      ""browser_version"": ""86.0"",
+      ""browser"": ""Chrome""
+    },
+    ""time_zone_offset_seconds"": null,
+    ""language"": null,
+    ""operating_system"": ""Web"",
+    ""mobile_os_hardware_model"": null,
+    ""mobile_marketing_name"": ""\u003cOther\u003e"",
+    ""is_limited_ad_tracking"": ""false"",
+    ""advertising_id"": null,
+    ""category"": ""mobile"",
+    ""operating_system_version"": ""\u003cOther\u003e"",
+    ""mobile_model_name"": ""Pixel 4 XL"",
+    ""vendor_id"": null,
+    ""mobile_brand_name"": ""Google""
+  }
+}",,,20210128,page_view,"{
+  ""geo"": {
+    ""sub_continent"": ""Southeast Asia"",
+    ""city"": ""Singapore"",
+    ""region"": ""(not set)"",
+    ""metro"": ""(not set)"",
+    ""country"": ""Singapore"",
+    ""continent"": ""Asia""
+  }
+}","{
+  ""event_params"": [{
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""1"",
+      ""string_value"": null
+    },
+    ""key"": ""engaged_session_event""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""6723488271"",
+      ""string_value"": null
+    },
+    ""key"": ""ga_session_id""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""Google Cloud Unisex Zip Hoodie""
+    },
+    ""key"": ""page_title""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""https://shop.googlemerchandisestore.com/Google+Redesign/Apparel/Google+Black+Cloud+Zip+Hoodie""
+    },
+    ""key"": ""page_location""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": null
+    },
+    ""key"": ""all_data""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""1""
+    },
+    ""key"": ""session_engaged""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""1"",
+      ""string_value"": null
+    },
+    ""key"": ""debug_mode""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": ""11"",
+      ""string_value"": null
+    },
+    ""key"": ""ga_session_number""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""https://shop.googlemerchandisestore.com/Google+Redesign/New?""
+    },
+    ""key"": ""page_referrer""
+  }, {
+    ""value"": {
+      ""double_value"": null,
+      ""float_value"": null,
+      ""int_value"": null,
+      ""string_value"": ""gtm.js""
+    },
+    ""key"": ""clean_event""
+  }]
+}",2100450278,"{
+  ""user_ltv"": {
+    ""currency"": ""USD"",
+    ""revenue"": ""0.0""
+  }
+}",1611851330796969

@@ -5,7 +5,7 @@ WITH flattened AS (
     param.value.string_value AS string_value,
     SAFE_CAST(param.value.int_value AS INT64) AS int_value
   FROM
-    `crystalloids-candidates.andrea_monforte_dataset.ga4_data`,
+    `gcp-project.andrea_monforte_dataset.ga4_data`,
     UNNEST(event_params) AS param
 ),
 pivoted AS (

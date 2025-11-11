@@ -82,10 +82,13 @@ def parse_and_unwrap(cell, col_name):
 
     return parsed
 # specific columns could need a specific UNNEST 
+
+
 def dataframe_from_bytes(csv_bytes):
     # Read CSV from bytes into DataFrame with all columns as strings
     bio = BytesIO(csv_bytes)
     return pd.read_csv(bio, dtype=str, keep_default_na=False)
+
 
 def transform_dataframe_to_records(df):
     good_lines = []

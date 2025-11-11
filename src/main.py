@@ -1,27 +1,7 @@
 from google.cloud import storage, bigquery
 from datetime import datetime
-from config import BUCKET_NAME, FILE_NAME, GCP_PROJECT, BQ_DATASET, BQ_TABLE, table_schema
+from config import BUCKET_NAME, FILE_NAME, GCP_PROJECT, BQ_DATASET, BQ_TABLE
 from parse_json import transform_csv_bytes_to_records
-
-
-def ensure_table_exists_with_schema():
-
-    client = bigquery.Client(project=GCP_PROJECT)
-    table_id = f"{GCP_PROJECT}.{BQ_DATASET}.{BQ_TABLE}"
-
-    try:
-        client.get_table(table_id)
-        print(f"Table {table_id} already exists.")
-        return
-    except Exception:
-        print(f"Table {table_id} not found — creating...")
-
-    schema = table_schema
-
-    # Create table with predefined schema
-    table_obj = bigquery.Table(table_id, schema=schema)
-    client.create_table(table_obj)
-    print(f"Table {table_id} created with ordered schema.")
 
 
 def ensure_dataset_exists():
@@ -63,8 +43,6 @@ def load_records_to_bigquery(records):
     bq_client = bigquery.Client()
     table_id = f"{GCP_PROJECT}.{BQ_DATASET}.{BQ_TABLE}"
     table_ref = bigquery.TableReference.from_string(table_id)
-
-    #ensure_table_exists_with_schema(GCP_PROJECT, BQ_DATASET, BQ_TABLE)
     
     # Configure load job to accept newline-delimited JSON
     job_config = bigquery.LoadJobConfig(

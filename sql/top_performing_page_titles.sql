@@ -3,7 +3,7 @@ WITH flattened AS (
     param.key AS key,
     param.value.string_value AS string_value
   FROM
-    `crystalloids-candidates.andrea_monforte_dataset.ga4_data`,
+    `gcp-project.andrea_monforte_dataset.ga4_data`,
     UNNEST(event_params) AS param
 )
 SELECT

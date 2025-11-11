@@ -13,7 +13,7 @@ WITH params AS (
       LIMIT 1
     ) AS session_id_from_event
   FROM
-    `crystalloids-candidates.andrea_monforte_dataset.ga4_data`,
+    `gcp-project.andrea_monforte_dataset.ga4_data`,
     UNNEST(event_params) AS param
 ),
 
